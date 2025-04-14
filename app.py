@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-API_URL = "https://66cc2ec7-8cf7-465c-bbaf-d48889a11e38-00-153xo13m0s1z6.sisko.replit.dev/ai"
+API_URL = "https://worker-production-54e5.up.railway.app/ai"
 
 @app.route("/", methods=["GET", "POST"])
 def index():
